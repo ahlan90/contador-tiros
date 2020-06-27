@@ -13,5 +13,14 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <h1>Tiros</h1>
+
+  <h1>{{ tiros }}</h1>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="init()">
+      <ion-icon name="mic-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
 </ion-content>
