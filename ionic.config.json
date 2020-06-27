@@ -1,0 +1,7 @@
+{
+  "name": "ContadorTiros",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
